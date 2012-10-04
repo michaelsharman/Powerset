@@ -2,7 +2,7 @@ Calculates a powerset (set/permutations of all subsets) of an array of string da
 
 ##Usage:
 ```
-public array function powerset(required array data)
+public array function calculate(required array data)
 {
     var ps = [""];
     var d = arguments.data;
@@ -23,7 +23,8 @@ public array function powerset(required array data)
 A sample powerset of 4 values (in this case 1,2,3,4) would be:
 
 ```
-var res = powerset([1,2,3,4]);
+Powerset = new Powerset();
+var res = Powerset.calculate([1,2,3,4]);
 ```
 
 Outputs:
